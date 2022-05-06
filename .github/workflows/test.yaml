@@ -13,4 +13,5 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - uses: actions/checkout@v2
-      run: echo "nothing out of the norm"
+      - name: "Test stage"
+        run: echo "nothing out of the norm"
