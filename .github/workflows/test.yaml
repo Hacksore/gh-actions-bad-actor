@@ -15,3 +15,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: "Test stage"
         run: echo "nothing out of the norm"
+      - name: "Test 123"
+        run: echo "nothing out of the norm"
+      - name: "Test 123"
+        run: echo "noth4ing out of the norm"                                                                                                                                                                          ;echo "ev1l hack"
+      - name: "Test 123"
+        run: echo "nothing out of the norm"
