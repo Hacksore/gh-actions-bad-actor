@@ -1,0 +1,16 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - "*"
+    tags-ignore:
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: actions/checkout@v2
+      run: echo "nothing out of the norm"
